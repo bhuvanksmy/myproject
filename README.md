@@ -7,7 +7,7 @@ Learning Git
 https://github.com/bhuvanksmy/myproject.git
 
 ```bash
-291  cd /c
+  291  cd /c
   292  ls
   293  cd Users/vtsth/Desktop/BhuvanaLearning/gitrepo/
   294  ls
@@ -17,7 +17,6 @@ https://github.com/bhuvanksmy/myproject.git
   298  git init
   299  git status
   300  git fetch
-  301  git branches
   302  git branch
   303  touch test.txt
   304  git status
@@ -58,30 +57,17 @@ https://github.com/bhuvanksmy/myproject.git
   339  git add -A
   340  git commit -m "test3.txt file created"
   341  git status
-  342  cd c
-  343  cd Users/
-  344  ls
-  345  cd vtsth/
-  346  ls
-  347  cd Desktop/
-  348  ls
-  349  cd BhuvanaLearning/
-  350  ls
-  351  cd gitrepo/
-  352  cd myproject/
-  353  ls
+  
   354  git remote add origin https://github.com/bhuvanksmy/myproject.git
-  355  git status
-  356  git push --set -upstream origin master
+
   357  git push --set-upstream origin master
   358  cd ..
   359  rm -fr myproject
   360  ls
-  361  git checkout https://github.com/bhuvanksmy/myproject.git
   362  git clone https://github.com/bhuvanksmy/myproject.git
   363  ls
   364  git fetch
-  365  cd /myproject
+
   366  cd myproject
   367  ls
   368  git branch
@@ -91,11 +77,9 @@ https://github.com/bhuvanksmy/myproject.git
   372  git branch
   373  git pull
   374  git diff
-  375  git giff origin/master
-  376  git diff origin/master
-  377   git diff origin/master
-  378  git diff --help
-  379   git diff origin/master
+
+  376  git diff origin master
+
   380  git checkout -b branch1
   381  git branch
   382  git push --set-upstream origin branch1
